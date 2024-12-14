@@ -1,0 +1,26 @@
+bakery's product
+
+    build product and stock model 
+
+    stock 
+        - name
+        - type (sweety, salty etc)
+        - products[]
+    
+    product
+        - name
+        - price 
+        - restant 
+        - type (sweety, salty etc)
+        - stock 
+
+                        CRUD - stock 
+                        - create new stock
+                        - get specific stock with his products
+                        - get all stocks 
+                        - update and delete some stock (if a specific stock was removed, his products are too)
+
+                        CRUD - product
+                        - create new products
+                        - update and delete some product
+
