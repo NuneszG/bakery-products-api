@@ -23,7 +23,7 @@ this api was made to be used on BakerY, (Bakery products management) project. i 
 
 ### Clone api's repository
 ```
-git clone https://github.com/NuneszG/bakery-products.git
+git clone https://github.com/NuneszG/bakery-products-api.git
 ```
 
 ### Run with npm
