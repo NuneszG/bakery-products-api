@@ -22,8 +22,8 @@ export class UpdateStrockController {
 
         } catch (err) {
 
-            console.error("Os dados não foram passados corretamente.", err);
-            return reply.send(500).send({ err: "Erro interno no servidor."});
+            console.log(err);
+            return reply.status(500).send({ err: "Erro interno no servidor."});
 
         };
    };

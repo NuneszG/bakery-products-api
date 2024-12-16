@@ -14,13 +14,13 @@ bakery's product
         - type (sweety, salty etc)
         - stock 
 
-                        CRUD - stock 
+                        CRUD - stock (finished)
                         - create new stock
                         - get specific stock with his products
                         - get all stocks 
                         - update and delete some stock (if a specific stock was removed, his products are too)
 
-                        CRUD - product
+                        CRUD - product (finished)
                         - create new products
                         - update and delete some product
 

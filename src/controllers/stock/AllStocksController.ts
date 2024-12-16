@@ -15,7 +15,7 @@ export class AllStocksController {
 
         } catch (err) {
 
-            console.log("Nenhum estoque foi encontrado", err);
+            console.log(err);
             return reply.status(404).send("Não foi possivel encontrar nenhum estoque.");
         };
 

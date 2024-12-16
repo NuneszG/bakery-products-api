@@ -31,7 +31,7 @@ model Products {
   restant    Int
   type       String
   stock      Stock      @relation(fields: [stockType], references: [type], onDelete: Cascade)
-  stockType  String     @unique
+  stockType  String
 
   @@map("products")
 }

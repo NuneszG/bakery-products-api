@@ -23,7 +23,7 @@ export class CreateStockController {
         } catch(err) {
 
             console.log(err)
-            return reply.send(500).send({ err: "Erro interno no servidor."});
+            return reply.status(500).send({ err: "Erro interno no servidor."});
             
         };
    

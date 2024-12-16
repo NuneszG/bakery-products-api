@@ -21,8 +21,8 @@ export class SpecificStockController {
 
         } catch (err) {
 
-            console.error("Não foi informado o id do estoque:", err);
-            return reply.send(500).send({ err: "Erro interno no servidor. " });
+            console.log(err);
+            return reply.status(500).send({ err: "Erro interno no servidor. " });
             
         };
     };
